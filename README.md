@@ -1,11 +1,3 @@
-# Olá, eu sou o Leandro Coelho! 👋
-
-Sou um profissional de tecnologia com sólida experiência em **Análise de Dados**, atualmente em transição de carreira para o **Desenvolvimento de Software (Full Stack Java)**.
-
-Minha paixão é unir a visão analítica de dados com a engenharia de software para construir soluções robustas e escaláveis.
-
----
-
 ### 🎓 Formação Acadêmica
 
 Acredito no aprendizado contínuo. Minha base acadêmica combina Gestão, Dados e Engenharia de Software:
