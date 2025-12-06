@@ -32,12 +32,8 @@ Acredito no aprendizado contínuo. Minha base acadêmica combina Gestão, Dados 
 ### 📈 Estatísticas do GitHub
 
 <div align="center">
-  <a href="https://github.com/LeCo851">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LeCo851&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  </a>
-  <a href="https://github.com/LeCo851">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeCo851&layout=compact&theme=dracula"/>
-  </a>
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=LeCo851&theme=dracula&hide_border=true" alt="GitHub Streak" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeCo851&layout=compact&theme=dracula&hide_border=true" alt="Top Langs" />
 </div>
 
 ---
