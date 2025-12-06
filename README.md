@@ -33,7 +33,7 @@ Acredito no aprendizado contínuo. Minha base acadêmica combina Gestão, Dados 
 
 <div align="center">
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=LeCo851&theme=dracula&hide_border=true" alt="GitHub Streak" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeCo851&layout=compact&theme=dracula&hide_border=true" alt="Top Langs" />
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=LeCo851&theme=dracula&hide_border=true" alt="Repos per Language" />
 </div>
 
 ---
