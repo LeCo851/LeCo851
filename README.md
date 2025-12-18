@@ -55,8 +55,8 @@ Minha transição de carreira não é um recomeço, mas uma evolução. Trago a 
         <br>Angular
       </td>
       <td align="center" width="90">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="45" height="45" alt="Postgres" />
-        <br>Postgres
+        <img src="https://img.icons8.com/color/48/sql.png" width="45" height="45" alt="SQL" />
+        <br>SQL
       </td>
       <td align="center" width="90">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="45" height="45" alt="Docker" />
