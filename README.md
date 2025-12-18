@@ -20,7 +20,7 @@
 
 > *"Engenheiro por formação, Desenvolvedor por paixão."*
 
-Minha trajetória não é linear, e isso é minha maior força. Como **Engenheiro Químico** com **MBA em Data Science**, desenvolvi um raciocínio lógico apurado para resolução de problemas complexos. Hoje, aplico essa visão analítica na **Engenharia de Software**.
+Minha trajetória não é linear, e isso é minha maior força. Como **Engenheiro Químico** com **MBA em Data Science** e **Analista de governança** desde 2022, desenvolvi um raciocínio lógico apurado para resolução de problemas complexos. Hoje, aplico essa visão analítica na **Engenharia de Software**.
 
 Atualmente, meu foco é o ecossistema **Java (Spring Boot)** e **Angular**, criando soluções robustas e escaláveis.
 
