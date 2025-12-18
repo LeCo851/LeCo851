@@ -30,10 +30,10 @@ Atualmente, meu foco é o ecossistema **Java (Spring Boot)** e **Angular**, cria
 
 | ☕ **Backend & API (Java)** | 📊 **Data Science & Analytics** | 🚀 **Full Stack (Angular + Java)** |
 | :--- | :--- | :--- |
-| **[Nome do Seu Projeto Java]** | **[Nome do Seu Projeto Python]** | **[Nome do Projeto Full Stack]** |
+| **[API para Gestão de Vagas]** | **[Predição de salário de profissionais de TI]** | **[Nome do Projeto Full Stack]** |
 | Uma API RESTful robusta desenvolvida com **Spring Boot 3**. Inclui autenticação JWT, tratamento de exceções personalizado e documentação Swagger. | Análise exploratória e modelagem preditiva utilizando **Python & Pandas**. Foco em extrair insights de negócios a partir de grandes datasets. | Aplicação completa conectando uma API Java a um frontend reativo em **Angular**. Demonstração de integração e UX. |
 | 🛠️ *Spring Boot, Postgres, Docker* | 🛠️ *Python, Jupyter, Scikit-learn* | 🛠️ *Java, Angular, TypeScript* |
-| [🔗 Ver Código](LINK_DO_REPO_AQUI) | [🔗 Ver Código](LINK_DO_REPO_AQUI) | [🔗 Ver Código](LINK_DO_REPO_AQUI) |
+| [🔗 Ver Código]((https://github.com/LeCo851/gestao_vagas)) | [🔗 Ver Código](https://github.com/LeCo851/predicao-salario-ti-rais) | [🔗 Ver Código](LINK_DO_REPO_AQUI) |
 
 ---
 
