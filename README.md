@@ -18,11 +18,11 @@
 
 ## 👨‍💻 Sobre Mim
 
-> *"Engenheiro por formação, Desenvolvedor por paixão."*
+"De Engenheiro Químico a Desenvolvedor Full Stack.
 
-Minha trajetória não é linear, e isso é minha maior força. Como **Engenheiro Químico** com **MBA em Data Science** e **Analista de governança** desde 2022, desenvolvi um raciocínio lógico apurado para resolução de problemas complexos. Hoje, aplico essa visão analítica na **Engenharia de Software**.
+Minha transição de carreira não é um recomeço, mas uma evolução. Trago a disciplina da Engenharia e a organização da Governança de TI (atuando desde 2022) para dentro do código. Com MBA em Data Science, tenho facilidade em lidar com lógicas complexas e grandes volumes de dados.
 
-Atualmente, meu foco é o ecossistema **Java (Spring Boot)** e **Angular**, criando soluções robustas e escaláveis.
+🛠️ Foco: Construção de arquiteturas sólidas utilizando Java, Spring Boot e Angular."
 
 ---
 
