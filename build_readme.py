@@ -18,7 +18,7 @@ def get_template_path():
 
 def fetch_projetos_supabase(url: str, key: str) -> list:
     """Busca projetos e faz o JOIN automático com a tabela de tags via PostgREST."""
-    endpoint = f"{url.rstrip('/')}/rest/v1/project_analysis_entity?select=id,titulo,resumo,project_analysis_entity_tags(tags)"
+    endpoint = f"{url.rstrip('/')}/rest/v1/project_analysis_entity?select=id,titulo,resumo,project_analysis_entity_tags(tags)&order=last_update.desc"
     
     req = urllib.request.Request(endpoint)
     req.add_header("apikey", key)
