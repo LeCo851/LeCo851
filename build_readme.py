@@ -1,29 +1,43 @@
 import os
+import sys
 import json
 import urllib.request
 
-# GARANTE O CAMINHO ABSOLUTO: Descobre a pasta onde este script está rodando
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# 1. ÂNCORA DE DIRETÓRIO (Padrão CI/CD)
+# GITHUB_WORKSPACE garante o caminho para a raiz do repositório.
+# O fallback os.getcwd() permite que o script rode localmente na sua máquina para testes.
+ROOT_DIR = os.environ.get("GITHUB_WORKSPACE", os.getcwd())
 
-# Concatena a pasta base com o nome dos arquivos
-TEMPLATE_FILE = os.path.join(BASE_DIR, "README_TEMPLATE.md")
-OUTPUT_FILE = os.path.join(BASE_DIR, "README.md")
+TEMPLATE_FILE = os.path.join(ROOT_DIR, "README_TEMPLATE.md")
+OUTPUT_FILE = os.path.join(ROOT_DIR, "README.md")
 
 def fetch_projetos_supabase(url: str, key: str) -> list:
-    """Busca os dados dos projetos na tabela 'project_analysis_entity'."""
-    endpoint = f"{url}/rest/v1/project_analysis_entity?select=id,titulo,resumo"
+    """Busca os dados dos projetos e garante a integridade da resposta."""
+    # O rstrip('/') previne erros caso a URL do GitHub Secrets tenha uma barra no final
+    endpoint = f"{url.rstrip('/')}/rest/v1/project_analysis_entity?select=id,titulo,resumo"
     
     req = urllib.request.Request(endpoint)
     req.add_header("apikey", key)
     req.add_header("Authorization", f"Bearer {key}")
     
-    with urllib.request.urlopen(req) as response:
-        return json.loads(response.read().decode('utf-8'))
+    try:
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode('utf-8'))
+            # Fail-Fast: Se a API retornar uma mensagem de erro em vez de lista, interrompe
+            if not isinstance(data, list):
+                print(f"ERRO DE INTEGRIDADE: O Supabase retornou um formato inesperado: {data}")
+                sys.exit(1)
+            return data
+    except Exception as e:
+        print(f"ERRO DE COMUNICAÇÃO: Falha na requisição ao Supabase. Detalhes: {e}")
+        sys.exit(1)
 
 def generate_html_grid(projetos: list) -> str:
-    """Transforma a lista de projetos em uma tabela HTML (Grid 2xN)."""
+    """Monta a grade de cards dinamicamente."""
+    if not projetos:
+        return "<p>Nenhum projeto encontrado no momento.</p>"
+
     html = "<table>\n  <tr>\n"
-    
     for index, proj in enumerate(projetos):
         if index > 0 and index % 2 == 0:
             html += "  </tr>\n  <tr>\n"
@@ -45,7 +59,13 @@ def generate_html_grid(projetos: list) -> str:
     return html
 
 def update_readme_file(html_content: str):
-    """Lê o template, substitui a tag pelo conteúdo gerado e salva."""
+    """Substitui o placeholder no template e salva o arquivo final de forma segura."""
+    # 2. VALIDAÇÃO DE ESTADO (Verificação explícita do arquivo)
+    if not os.path.exists(TEMPLATE_FILE):
+        print(f"ERRO CRÍTICO: O template não foi encontrado em {TEMPLATE_FILE}")
+        print(f"Conteúdo da raiz do repositório: {os.listdir(ROOT_DIR)}")
+        sys.exit(1)
+
     with open(TEMPLATE_FILE, "r", encoding="utf-8") as file:
         template_content = file.read()
         
@@ -59,18 +79,15 @@ def main():
     supabase_key = os.environ.get("SUPABASE_KEY")
     
     if not supabase_url or not supabase_key:
-        raise ValueError("ERRO: Credenciais do Supabase não encontradas nas variáveis de ambiente.")
+        print("ERRO CRÍTICO: Variáveis SUPABASE_URL ou SUPABASE_KEY ausentes no ambiente.")
+        sys.exit(1)
         
-    print("Buscando dados na tabela project_analysis_entity...")
+    print("Iniciando rotina de automação do README...")
     projetos = fetch_projetos_supabase(supabase_url, supabase_key)
-    
-    print("Gerando layout HTML...")
     html_grid = generate_html_grid(projetos)
-    
-    print("Atualizando README.md...")
     update_readme_file(html_grid)
     
-    print("Sucesso! O README.md foi atualizado com os dados do banco.")
+    print("Processo finalizado com sucesso! README atualizado.")
 
 if __name__ == "__main__":
     main()
