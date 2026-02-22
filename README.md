@@ -1,89 +1,96 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=125&section=header&text=Leandro%20Coelho&fontSize=35&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Java%20Full%20Stack%20Developer%20|%20Data%20Science%20MBA&descAlignY=55&descSize=20" />
-</div>
+# Leandro Coelho
+**Java Full Stack Developer | MBA em Data Science & Big Data**
+
+---
+
+### Sobre Mim
+Engenheiro Químico e Bacharel em Sistemas de Informação. Atuo no desenvolvimento de ecossistemas robustos utilizando Java (Spring Boot) e Angular. Minha abordagem une a precisão da engenharia com a análise avançada de dados para criar soluções escaláveis e arquiteturas sólidas.
+
+---
+
+### Projetos em Destaque
+
+<table>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <h4>Predição Salarial TI</h4>
+      <p>Estimativa salarial com Machine Learning utilizando dados da RAIS.</p>
+      <img src="https://img.shields.io/badge/Java_17-orange?style=flat-square" />
+      <img src="https://img.shields.io/badge/Python_3.9-blue?style=flat-square" />
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square" />
+      <br><br>
+      <a href="https://github.com/LeCo851/tcc-puc-rio-predicao-salario-ti-rais">Ver Repositório</a>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <h4>Portfólio Inteligente</h4>
+      <p>Plataforma Full Stack com automação de exibição via Spring AI.</p>
+      <img src="https://img.shields.io/badge/Java_21-orange?style=flat-square" />
+      <img src="https://img.shields.io/badge/Angular_21-red?style=flat-square" />
+      <img src="https://img.shields.io/badge/Spring_AI-6DB33F?style=flat-square" />
+      <br><br>
+      <a href="https://github.com/LeCo851">Ver Repositório</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <h4>App Financeiro Inteligente</h4>
+      <p>Gestão financeira com integração Open Finance e consultoria IA.</p>
+      <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square" />
+      <img src="https://img.shields.io/badge/Postgres-336791?style=flat-square" />
+      <img src="https://img.shields.io/badge/Llama-white?style=flat-square&logo=meta" />
+      <br><br>
+      <a href="https://github.com/LeCo851">Ver Repositório</a>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <h4>RabbitMQ Spring Boot</h4>
+      <p>Processamento assíncrono e mensageria para inscrições em larga escala.</p>
+      <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square" />
+      <img src="https://img.shields.io/badge/Java_17-orange?style=flat-square" />
+      <img src="https://img.shields.io/badge/Flyway-CC0202?style=flat-square" />
+      <br><br>
+      <a href="https://github.com/LeCo851">Ver Repositório</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <h4>Microsserviços em Java</h4>
+      <p>Arquitetura distribuída utilizando Spring Cloud e Docker Compose.</p>
+      <img src="https://img.shields.io/badge/Spring_Cloud-6DB33F?style=flat-square" />
+      <img src="https://img.shields.io/badge/H2_Database-002B51?style=flat-square" />
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square" />
+      <br><br>
+      <a href="https://github.com/LeCo851">Ver Repositório</a>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <h4>Gestão de Vagas</h4>
+      <p>API REST para gerenciamento de fluxo seletivo com foco em testes unitários.</p>
+      <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square" />
+      <img src="https://img.shields.io/badge/JUnit_5-25A162?style=flat-square" />
+      <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" />
+      <br><br>
+      <a href="https://github.com/LeCo851">Ver Repositório</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+### Arsenal Tecnológico
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/leco/" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
-  </a>
-  <a href="mailto:leandrocesar91@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-%23D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
-  </a>
-  <a href="https://github.com/LeCo851?tab=repositories">
-    <img src="https://img.shields.io/badge/-Portfólio-%23181717?style=for-the-badge&logo=github&logoColor=white" target="_blank">
-  </a>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</div>
+
+---
+
+### Estatísticas e Atividade Recente
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LeCo851&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeCo851&layout=compact&langs_count=7&theme=tokyonight"/>
 </div>
 
 <br>
-
-## 👨‍💻 Sobre Mim
-
-"De Engenheiro Químico a Desenvolvedor Full Stack.
-
-Minha transição de carreira não é um recomeço, mas uma evolução. Trago a disciplina da Engenharia e a organização da Governança de TI (atuando desde 2022) para dentro do código. Com MBA em Data Science, tenho facilidade em lidar com lógicas complexas e grandes volumes de dados.
-
-🛠️ Foco: Construção de arquiteturas sólidas utilizando Java, Spring Boot e Angular."
-
----
-
-## 📂 Projetos em Destaque
-
-| ☕ **Backend & API (Java)** | 📊 **Data Science & Analytics** | 🚀 **Full Stack (Angular + Java)** |
-| :--- | :--- | :--- |
-| **[API para Gestão de Vagas]** | **[Predição de salário de profissionais de TI - Projeto Full Stack]** | **[Nome do Projeto Full Stack (Em andamento)]** |
-| Uma API RESTful robusta desenvolvida com **Spring Boot 3**. Inclui autenticação JWT, tratamento de exceções personalizado e documentação Swagger. | Aplicação completa com integração entre Python - Java - Angular para predição de salários em tempo real | Aplicação completa conectando uma API Java a um frontend reativo em **Angular**. Demonstração de integração e UX. |
-| 🛠️ *Spring Boot, Postgres, Docker* | 🛠️ *Python, Jupyter, Scikit-learn* | 🛠️ *Java, Angular, TypeScript* |
-| [🔗 Ver Código](https://github.com/LeCo851/gestao_vagas) | [🔗 Ver Código](https://github.com/LeCo851/tcc-puc-rio-predicao-salario-ti-rais) | [🔗 Ver Código](LINK_DO_REPO_AQUI) |
-
----
-
-## 🛠️ Arsenal Tecnológico
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="90">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45" height="45" alt="Java" />
-        <br>Java
-      </td>
-      <td align="center" width="90">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="45" height="45" alt="Spring" />
-        <br>Spring
-      </td>
-      <td align="center" width="90">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" width="45" height="45" alt="Angular" />
-        <br>Angular
-      </td>
-      <td align="center" width="90">
-        <img src="https://img.icons8.com/color/48/sql.png" width="45" height="45" alt="SQL" />
-        <br>SQL
-      </td>
-      <td align="center" width="90">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="45" height="45" alt="Docker" />
-        <br>Docker
-      </td>
-      <td align="center" width="90">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45" height="45" alt="Python" />
-        <br>Python
-      </td>
-      <td align="center" width="90">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45" alt="Git" />
-        <br>Git
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-## 🧩 Contribuições (Snake Game)
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/LeCo851/LeCo851/output/snake.svg" alt="Snake animation" width="100%" />
-</div>
-
----
-
-<div align="center">
-  <p>Construindo o futuro com linhas de código e dados.</p>
-</div>
