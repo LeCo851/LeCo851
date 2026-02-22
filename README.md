@@ -2,8 +2,8 @@
 **Desenvolvedor Java Full Stack | MBA em Data Science & Big Data**
 
 [![Portfólio](https://img.shields.io/badge/devleco.com.br-000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://devleco.com.br/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil-aqui)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:seu-email@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leco/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leandrocesar91@gmail.com)
 
 ---
 
