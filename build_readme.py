@@ -3,19 +3,25 @@ import sys
 import json
 import urllib.request
 
-# 1. ÂNCORA DE DIRETÓRIO (Padrão CI/CD)
-# GITHUB_WORKSPACE garante o caminho para a raiz do repositório.
-# O fallback os.getcwd() permite que o script rode localmente na sua máquina para testes.
+# Âncora absoluta apontando para a raiz do repositório
 ROOT_DIR = os.environ.get("GITHUB_WORKSPACE", os.getcwd())
-
-TEMPLATE_FILE = os.path.join(ROOT_DIR, "README_TEMPLATE.md")
 OUTPUT_FILE = os.path.join(ROOT_DIR, "README.md")
 
-def fetch_projetos_supabase(url: str, key: str) -> list:
-    """Busca os dados dos projetos e garante a integridade da resposta."""
-    # O rstrip('/') previne erros caso a URL do GitHub Secrets tenha uma barra no final
-    endpoint = f"{url.rstrip('/')}/rest/v1/project_analysis_entity?select=id,titulo,resumo"
+def get_template_path():
+    """
+    Busca o arquivo template ignorando Case Sensitivity (resolve o bug do Git).
+    """
+    for filename in os.listdir(ROOT_DIR):
+        if filename.lower() == "readme_template.md":
+            return os.path.join(ROOT_DIR, filename)
     
+    # Se realmente não existir, imprime o que o Linux está enxergando para debugar
+    print("ERRO CRÍTICO: Template não encontrado.")
+    print(f"Arquivos que o GitHub Actions está vendo na pasta: {os.listdir(ROOT_DIR)}")
+    sys.exit(1)
+
+def fetch_projetos_supabase(url: str, key: str) -> list:
+    endpoint = f"{url.rstrip('/')}/rest/v1/project_analysis_entity?select=id,titulo,resumo"
     req = urllib.request.Request(endpoint)
     req.add_header("apikey", key)
     req.add_header("Authorization", f"Bearer {key}")
@@ -23,19 +29,17 @@ def fetch_projetos_supabase(url: str, key: str) -> list:
     try:
         with urllib.request.urlopen(req) as response:
             data = json.loads(response.read().decode('utf-8'))
-            # Fail-Fast: Se a API retornar uma mensagem de erro em vez de lista, interrompe
             if not isinstance(data, list):
-                print(f"ERRO DE INTEGRIDADE: O Supabase retornou um formato inesperado: {data}")
+                print(f"ERRO: Supabase retornou formato inesperado: {data}")
                 sys.exit(1)
             return data
     except Exception as e:
-        print(f"ERRO DE COMUNICAÇÃO: Falha na requisição ao Supabase. Detalhes: {e}")
+        print(f"ERRO DE COMUNICAÇÃO: {e}")
         sys.exit(1)
 
 def generate_html_grid(projetos: list) -> str:
-    """Monta a grade de cards dinamicamente."""
     if not projetos:
-        return "<p>Nenhum projeto encontrado no momento.</p>"
+        return "<p>Nenhum projeto encontrado.</p>"
 
     html = "<table>\n  <tr>\n"
     for index, proj in enumerate(projetos):
@@ -59,14 +63,9 @@ def generate_html_grid(projetos: list) -> str:
     return html
 
 def update_readme_file(html_content: str):
-    """Substitui o placeholder no template e salva o arquivo final de forma segura."""
-    # 2. VALIDAÇÃO DE ESTADO (Verificação explícita do arquivo)
-    if not os.path.exists(TEMPLATE_FILE):
-        print(f"ERRO CRÍTICO: O template não foi encontrado em {TEMPLATE_FILE}")
-        print(f"Conteúdo da raiz do repositório: {os.listdir(ROOT_DIR)}")
-        sys.exit(1)
-
-    with open(TEMPLATE_FILE, "r", encoding="utf-8") as file:
+    template_path = get_template_path()
+    
+    with open(template_path, "r", encoding="utf-8") as file:
         template_content = file.read()
         
     final_content = template_content.replace("{{PROJETOS_SUPABASE}}", html_content)
@@ -79,15 +78,19 @@ def main():
     supabase_key = os.environ.get("SUPABASE_KEY")
     
     if not supabase_url or not supabase_key:
-        print("ERRO CRÍTICO: Variáveis SUPABASE_URL ou SUPABASE_KEY ausentes no ambiente.")
+        print("ERRO CRÍTICO: Variáveis SUPABASE ausentes.")
         sys.exit(1)
         
-    print("Iniciando rotina de automação do README...")
+    print("Buscando dados no Supabase...")
     projetos = fetch_projetos_supabase(supabase_url, supabase_key)
+    
+    print("Gerando layout HTML...")
     html_grid = generate_html_grid(projetos)
+    
+    print("Atualizando README.md...")
     update_readme_file(html_grid)
     
-    print("Processo finalizado com sucesso! README atualizado.")
+    print("Processo finalizado com sucesso!")
 
 if __name__ == "__main__":
     main()
