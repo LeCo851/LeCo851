@@ -22,6 +22,15 @@ Aliado ao meu MBA em Data Science, possuo facilidade em lidar com lógicas compl
 <table>
   <tr>
     <td width="50%" valign="top" align="center">
+      <h4>Predição Salarial TI</h4>
+      <p>Sistema de predição salarial para profissionais de TI utilizando Machine Learning e microsserviços</p>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/LightGBM-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/HighCharts-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/GitHub_Actions-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Data_Science-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Backend-1E293B?style=flat-square" />
+      </div>
+      <br>
+      <a href="https://github.com/LeCo851/tcc-puc-rio-predicao-salario-ti-rais">Ver Repositório</a>
+    </td>
+    <td width="50%" valign="top" align="center">
       <h4>RabbitMQ Spring Boot</h4>
       <p>Aplicação Spring Boot com RabbitMQ para processamento assíncrono de inscrições</p>
       <div align="center">
@@ -30,6 +39,8 @@ Aliado ao meu MBA em Data Science, possuo facilidade em lidar com lógicas compl
       <br>
       <a href="https://github.com/LeCo851/rabbitmqspring">Ver Repositório</a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top" align="center">
       <h4>App Financeiro Inteligente</h4>
       <p>Sistema de gestão financeira com IA para categorização e consultoria personalizada</p>
@@ -39,8 +50,6 @@ Aliado ao meu MBA em Data Science, possuo facilidade em lidar com lógicas compl
       <br>
       <a href="https://github.com/LeCo851/app-financeiro">Ver Repositório</a>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top" align="center">
       <h4>Portfólio Pessoal Inteligente</h4>
       <p>Plataforma Full Stack que automatiza a exibição de portfólio técnico com Inteligência Artificial</p>
@@ -50,6 +59,8 @@ Aliado ao meu MBA em Data Science, possuo facilidade em lidar com lógicas compl
       <br>
       <a href="https://github.com/LeCo851/portfoliopessoal">Ver Repositório</a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top" align="center">
       <h4>Mega Betting System</h4>
       <p>Arquitetura de microsserviços escalável para processar +1.2M apostas/min</p>
@@ -59,8 +70,6 @@ Aliado ao meu MBA em Data Science, possuo facilidade em lidar com lógicas compl
       <br>
       <a href="https://github.com/LeCo851/mega-da-virada-system">Ver Repositório</a>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top" align="center">
       <h4>Locação Veículos</h4>
       <p>Sistema de locação de veículos em Java</p>
@@ -70,6 +79,8 @@ Aliado ao meu MBA em Data Science, possuo facilidade em lidar com lógicas compl
       <br>
       <a href="https://github.com/LeCo851/LocacaoVeiculos">Ver Repositório</a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top" align="center">
       <h4>Sistema Biblioteca</h4>
       <p>Gerenciamento de livros e empréstimos</p>
@@ -79,8 +90,6 @@ Aliado ao meu MBA em Data Science, possuo facilidade em lidar com lógicas compl
       <br>
       <a href="https://github.com/LeCo851/ProjetoBiblioteca">Ver Repositório</a>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top" align="center">
       <h4>API de Cursos</h4>
       <p>API de gerenciamento de cursos com autenticação e autorização</p>
@@ -90,6 +99,8 @@ Aliado ao meu MBA em Data Science, possuo facilidade em lidar com lógicas compl
       <br>
       <a href="https://github.com/LeCo851/api_cursos">Ver Repositório</a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top" align="center">
       <h4>Gestão de Vagas</h4>
       <p>API REST para gerenciamento de vagas de emprego</p>
@@ -98,17 +109,6 @@ Aliado ao meu MBA em Data Science, possuo facilidade em lidar com lógicas compl
       </div>
       <br>
       <a href="https://github.com/LeCo851/gestao_vagas">Ver Repositório</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top" align="center">
-      <h4>Predição Salarial TI</h4>
-      <p>Ferramenta de estimativa salarial para TI com ML e dados RAIS</p>
-      <div align="center">
-        <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/Python_3.9%2B-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Spring_Boot_4-6DB33F?style=flat-square&logo=spring&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Angular_21-DD0031?style=flat-square&logo=angular&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/NumPy-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Scikit--learn-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/LightGBM-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Joblib-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/DuckDB-336791?style=flat-square&logo=databricks&logoColor=white" /> <img src="https://img.shields.io/badge/Highcharts-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Highmaps-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Bootstrap_5-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Actuator-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Prometheus-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Grafana-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Data_Science-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Backend-1E293B?style=flat-square" />
-      </div>
-      <br>
-      <a href="https://github.com/LeCo851/tcc-puc-rio-predicao-salario-ti-rais">Ver Repositório</a>
     </td>
     <td width="50%" valign="top" align="center">
       <h4>Microsserviços em Java</h4>
