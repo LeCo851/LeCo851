@@ -22,15 +22,6 @@ Aliado ao meu MBA em Data Science, possuo facilidade em lidar com lógicas compl
 <table>
   <tr>
     <td width="50%" valign="top" align="center">
-      <h4>Predição Salarial TI</h4>
-      <p>Sistema de predição salarial para profissionais de TI utilizando Machine Learning e microsserviços</p>
-      <div align="center">
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/LightGBM-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/HighCharts-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/GitHub_Actions-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Data_Science-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Backend-1E293B?style=flat-square" />
-      </div>
-      <br>
-      <a href="https://github.com/LeCo851/tcc-puc-rio-predicao-salario-ti-rais">Ver Repositório</a>
-    </td>
-    <td width="50%" valign="top" align="center">
       <h4>RabbitMQ Spring Boot</h4>
       <p>Aplicação Spring Boot com RabbitMQ para processamento assíncrono de inscrições</p>
       <div align="center">
@@ -38,6 +29,15 @@ Aliado ao meu MBA em Data Science, possuo facilidade em lidar com lógicas compl
       </div>
       <br>
       <a href="https://github.com/LeCo851/rabbitmqspring">Ver Repositório</a>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <h4>Predição Salarial TI</h4>
+      <p>Sistema de predição salarial para profissionais de TI utilizando Machine Learning e microsserviços</p>
+      <div align="center">
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring&logoColor=white" /> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/FastAPI-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/LightGBM-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/HighCharts-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/GitHub_Actions-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Data_Science-1E293B?style=flat-square" /> <img src="https://img.shields.io/badge/Backend-1E293B?style=flat-square" />
+      </div>
+      <br>
+      <a href="https://github.com/LeCo851/tcc-puc-rio-predicao-salario-ti-rais">Ver Repositório</a>
     </td>
   </tr>
   <tr>
