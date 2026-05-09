@@ -1,5 +1,5 @@
 # 👨‍💻 Leandro Coelho
-**Desenvolvedor Java Full Stack | MBA em Data Science & Big Data**
+**Desenvolvedor Python/Java Full Stack | MBA em Data Science & Big Data**
 
 [![Portfólio](https://img.shields.io/badge/devleco.com.br-000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://devleco.com.br/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leco/)
